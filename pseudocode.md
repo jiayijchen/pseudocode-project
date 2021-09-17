@@ -1,7 +1,7 @@
-Pseudocoding a Scrambled Egg
+# Pseudocoding a Scrambled Egg
 
-PLAIN TEXT STEPS:
-Ingredients:
+## PLAIN TEXT STEPS:
+### Ingredients:
 - Egg
 - Milk (optional; 1 tbsp per egg)
 - Water (optional; 1 tbsp per egg)
@@ -9,14 +9,14 @@ Ingredients:
 - Salt
 - Pepper
 
-Equipment:
+### Equipment:
 - Nonstick skillet
 - Whisk
 - Rubber Spatula
 - Medium Bowl
 - Plate
 
-Steps:
+### Steps:
 1. Crack egg into bowl.
 2. Beat with whisk until uniform.
 3. Add milk/water
@@ -29,11 +29,11 @@ Steps:
 8. Tansfer eggs to plate.
 9. Add salt/pepper to season to taste.
 
-PSEUDOCODE:
-OBJECTIVE:
+## PSEUDOCODE:
+### OBJECTIVE:
 * Provide consumer with scrambled eggs based on desired number of eggs, consistency, and taste.
 
-OBJECTS:
+### OBJECTS:
 * Consumer
     - numberOfEggs (positive integer)
     - consistency (string=plain/creamy/fluffy)
@@ -59,7 +59,7 @@ OBJECTS:
 * ScrambledEggs
 
 
-FUNCTIONS:
+### FUNCTIONS:
 * Consumer (3 values)
     - desiredEggs(int) - sets numberOfEggs to int
     - desiredConsistency(str) - sets consistency to str
@@ -83,9 +83,10 @@ FUNCTIONS:
 * Plate(Mixture)
 
 
-SCENARIO:
+### SCENARIO:
 Consumer wants 3 eggs scrambled with creamy consitency and salty taste.
 
+```
 START
 
 INIT()
@@ -146,3 +147,4 @@ Plate(Mixture)
     ENDIF
 
 END
+```
