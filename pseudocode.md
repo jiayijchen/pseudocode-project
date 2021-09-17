@@ -86,6 +86,7 @@ FUNCTIONS:
 SCENARIO:
 Consumer wants 3 eggs scrambled with creamy consitency and salty taste.
 
+<code>
 START
 
 INIT()
@@ -146,3 +147,4 @@ Plate(Mixture)
     ENDIF
 
 END
+</code>
